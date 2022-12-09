@@ -96,7 +96,7 @@ clusterGroup:
       project: opp
       path: charts/hub/opp
       syncPolicy:
-        automated: '{}'
+        automated: 
         syncOptions:
           - 'respectedIgnoreDifferences=true'
       ignoreDifferences:
