@@ -98,7 +98,7 @@ clusterGroup:
       syncPolicy:
         automated: {}
         syncOptions:
-          - 'respectedIgnoreDifferences=true'
+          - 'respectIgnoreDifferences=true'
       ignoreDifferences:
       - group: operators.openshift.io
         kind: Console
