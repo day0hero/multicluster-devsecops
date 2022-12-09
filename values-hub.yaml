@@ -95,6 +95,10 @@ clusterGroup:
       namespace: openshift
       project: opp
       path: charts/hub/opp
+      syncPolicy:
+        automated: '{}'
+        syncOptions:
+          - 'respectedIgnoreDifferences=true'
       ignoreDifferences:
       - group: operators.openshift.io
         kind: Console
