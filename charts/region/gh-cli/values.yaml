@@ -1,0 +1,13 @@
+# Default values for gh-cli.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+name: gh-cli
+namespace: openshift
+
+source: https://github.com/hybrid-cloud-demos/devsecops-tools
+sourceContext: containerFiles/gh-cli
+sourceRevision: latest
+sourceImageStream: cli:latest
+
+#Default Registry
+registry_root: image-registry.openshift-image-registry.svc:5000/openshift/cli
