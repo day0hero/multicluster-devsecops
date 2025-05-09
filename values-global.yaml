@@ -2,7 +2,7 @@
 global:
   pattern: multicluster-devsecops
 
- cicd:
+  cicd:
     namespace: devsecops-ci
 
   options:
@@ -22,7 +22,7 @@ global:
     hostname: github.com
     account: PLAINTEXT
     username: day0hero
-    email: SOMEWHERE@EXAMPLE.COM
+    email: "SOMEWHERE@EXAMPLE.COM"
     dev_revision: main
 
   quay:
