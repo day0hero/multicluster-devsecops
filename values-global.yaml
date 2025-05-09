@@ -2,7 +2,7 @@
 global:
   pattern: multicluster-devsecops
 
-  cicd:
+ cicd:
     namespace: devsecops-ci
 
   options:
@@ -14,14 +14,14 @@ global:
     namespace: "openshift-storage"
 
   imageregistry:
-    account: PLAINTEXT
+    account: jrickard0
     hostname: quay.io
     type: quay
 
   git:
     hostname: github.com
     account: PLAINTEXT
-    username: PLAINTEXT
+    username: day0hero
     email: SOMEWHERE@EXAMPLE.COM
     dev_revision: main
 
